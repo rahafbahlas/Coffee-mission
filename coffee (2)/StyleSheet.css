@@ -1,0 +1,629 @@
+html {
+  background-image: url("photos/background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family:"Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+  
+}
+main {
+	padding: 70px 0;
+	text-align: center;
+}
+
+
+header {
+	background-color: #333;
+	width : 100% ; 
+	height: auto;
+}
+h1{
+	color:white;
+}
+
+
+header nav , ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
+}
+.navb li a:hover {
+	background-color: #2F4F4F;
+}
+li {
+	float: left;
+}
+.navb li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.breadcrumbs {
+	padding-left: 30px;
+}
+.breadcrumbs li {
+	font-size:small;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	
+	padding-right: 4px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+ul.breadcrumbs li + li:before {
+	color: white;
+	content: "/";
+}
+ul.breadcrumbs span {
+
+	padding-left: 5px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
+
+ul.breadcrumbs li a {
+	text-align: center;
+	padding-right: 4px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+	ul.breadcrumbs li a:hover {
+		background-color: #2F4F4F;
+
+	
+	}
+
+
+button {
+	background-color: #354F60;
+	border: none;
+	color: white;
+	padding: 30px 46px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.USERbutton {
+	background-color: #808080;
+	color: white;
+}
+
+.USERbutton:hover{
+	background-color: white; 
+  color: black; 
+  border: 2px solid #2F4F4F;
+}
+
+.ADMINbutton {
+	background-color: #808080;
+	color: white;
+}
+
+.ADMINbutton:hover{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #2F4F4F;
+}
+
+.sign {
+	color: white;
+    
+
+}
+
+.aboutUs {
+	background-color: #808080;
+	color: white;
+	text-align: left;
+	padding: 30px 46px;
+	width: 80%;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 8px;
+}
+footer {
+	background-color: #333;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	transition: bottom 0.1s;
+}
+footer img{ 
+	padding:8px 40px;
+}
+footer aside {
+	margin-right:3%;
+	float:right;
+	bottom: 2px;
+	right: 16px;
+	color: white;
+}
+.help {
+	background-color: #808080;
+	text-align: left;
+	color: white;
+	padding: 30px 46px;
+
+	width: 80%;
+	margin: auto;
+	border-radius: 8px;
+}
+.help h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-left: 80px;
+}
+
+	.help p {
+	padding-left: 30px;
+	}
+
+.testimonials{
+padding:40px 0 ;
+background:#f1f1f1;
+color:#434343;
+text-align:center;
+margin-left: 70px;
+}
+.testimonials1{
+padding:40px 0 ;
+background:#f1f1f1;
+color:#434343;
+text-align:center;
+margin-left: auto;
+}
+.inner{
+max-width:1200px;
+margin:auto;
+overflow:hidden;
+padding:0 20px;
+}
+.inner h1{
+color:black;
+}
+
+.border {
+width:160px;
+height:5px;
+background:#6ab04c;
+margin:26px auto;
+}
+#myInput
+{
+    height:40px;
+    font-size:14pt;
+}
+.container {
+	display: flex;
+justify-content:space-between; }
+.container1 {
+	display: flex;
+justify-content:space-between; }
+.container .testimonials {
+	border:1px #ccc solid;
+    padding:40px;
+}
+.container1 .testimonials {
+	border:1px #ccc solid;
+    padding:80px;
+}
+.testimonial{
+background:#fff;
+padding:30px;
+}
+.testimonial img{
+width:100px;
+height:100px;
+border-radius:50%;
+}
+.name{
+font-size:20px;
+text-transform:uppercase;
+margin:20px 0 ;
+}
+.stars{
+color:#6ab04c;
+margin-bottom:20px;
+}
+
+.txt a.active,
+	.txt a:hover {
+		color: aliceblue;
+		background: rgb(230, 71, 121);
+		border-radius: .5rem;
+		padding: .5rem 1.5rem;
+	
+	}
+	
+	.title-2 {
+		font-weight: bold;
+		color: aliceblue;
+		font-size:xx-large ;
+
+	}
+	textarea{
+		text-align: center;
+		font-size:large ;
+	}
+
+
+	.postreview{
+
+		background-color: #a5b2b9;
+		border: none;
+		color: white;
+		padding: 30px 46px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 14px 62px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius: 8px;
+		
+		
+
+	}
+	.postreview:hover{
+		background-color: rgba(155, 239, 103, 0.573); 
+	  color: rgb(0, 0, 0); 
+	 
+	}
+
+
+/*login Signin */
+
+  .login {
+	color: rgb(255, 255, 255);
+	background: -webkit-linear-gradient(to right, );
+	margin: auto;
+	box-shadow: 
+	  0px 2px 10px rgba(0,0,0,0.2), 
+	  0px 10px 20px rgba(0,0,0,0.3), 
+	  0px 30px 60px 1px rgba(0,0,0,0.5);
+	border-radius: 8px;
+	padding-top: 150px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 150px;
+	width: 55%;
+  }
+  .login .form .btn-login{
+	text-align: center;
+	display: inline-block;
+	align-items: center;
+  }
+  .login .head {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+  }
+  .login .head .company {
+	font-size: 2.2em;
+  }
+  .login .msg {
+	text-align: center;
+	margin-bottom: 30px;
+  }
+  .login .form {
+	  margin: auto;
+	  text-align: center;
+  }
+  .login .form input[type=text].text {
+	border: none;
+	background: none;
+	box-shadow: 0px 2px 0px 0px white;
+	width: 50%;
+	color: rgb(90, 89, 92);
+	font-size: 1em;
+	outline: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+  }
+  .login .form .text::placeholder {
+	  color: rgb(209, 207, 211);
+  }
+  .login .form input[type=password].password {
+	border: none;
+	background: none;
+	box-shadow: 0px 2px 0px 0px white;
+	width: 50%;
+	color: rgb(90, 89, 92);
+	font-size: 1em;
+	outline: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+  }
+  .login .form .password::placeholder {
+	  color: rgb(209, 207, 211);
+  }
+  .login .form .btn-login {
+	background: none;
+	text-decoration: none;
+	color: rgb(240, 238, 245);
+	box-shadow: 0px 0px 0px 2px white;
+	border-radius: 3px;
+	padding: 5px 2em;
+	transition: 0.5s;
+  }
+  .login .form .btn-login:hover {
+	background: white;
+	color: dimgray;
+	transition: 0.5s;
+  }
+  #message {
+	display:none;
+	background: rgba(232, 231, 231, 0.70);
+	color: #000;
+	position: relative;
+	margin-top: 10px;
+	padding-left: 40px;
+	border-radius: 10px;
+  }
+  #message p {
+	font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+	color: green;
+  }
+  .valid:before {
+	position: relative;
+	left: -35px;
+	content: "✔";
+  } 
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+	color: red;
+  }  
+  .invalid:before {
+	position: relative;
+	left: -35px;
+	content: "✖";
+  }
+  /*  The end */
+  
+  
+  
+  
+  .hero-btn2:hover{
+	background: #FFFAF0;
+	transition: 1s;
+	color: #777;
+	border: #FFFAF0;
+
+}
+
+.hero-btn2{
+	display: inline-block;
+	text-decoration: none;
+	color:rgb(223, 217, 217);
+	border: 2px solid #FFFAF0;
+	border-radius: 8px;
+
+	padding: 13px 34px;
+	font-size: 20px;
+	background:transparent;
+	position: relative;
+	cursor: pointer;
+	text-align:center;
+	display: grid;
+}
+
+.cont{
+	
+	flex-basis: 31%;
+	border-radius: 8px;
+	margin-bottom: 100%;
+	padding: 50px 50px;
+	box-sizing: border-box;
+		color: rgb(255, 255, 255);
+	
+	margin: auto;
+	
+	 width: 30%;
+	 
+	 
+
+}
+
+
+
+
+
+
+
+.Add_form{
+    width:600px;
+    height:45em;
+    margin: 0 auto;
+	padding:30px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	
+}
+.Add_form .inner-wrap{
+	padding: 30px;
+	background: #F8F8F8;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+.Add_form h1{
+	text-align:center;
+	background: rgb(139, 71, 39);
+	padding: 20px 30px 15px 30px;
+	margin: -30px -30px 30px -30px;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px "Rowdies", "cursive";
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid rgb(139, 71, 39);
+}
+.Add_form h1 > span{
+	display: block;
+	margin-top: 2px;
+	font: 13px "Rowdies", "cursive";
+}
+.Add_form label{
+	display: block;
+	font: 13px "Rowdies", "cursive";
+	color: #888;
+	margin-bottom: 15px;
+}
+.Add_form input[type="submit"],
+.Add_form textarea,
+.Add_form select {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	border: 2px solid #fff;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);	
+}
+
+.Add_form .section{
+	font: normal 20px "Rowdies", "cursive";
+	color: rgb(139, 71, 39);;
+	margin-bottom: 5px;
+}
+.Add_form .section span {
+	background: rgb(139, 71, 39);;
+	padding: 5px 10px 5px 10px;
+	position: absolute;
+	border-radius: 50%;
+	border: 4px solid #fff;
+	font-size: 14px;
+	margin-left: -45px;
+	color: #fff;
+	margin-top: -3px;
+}
+.Add_form input[type="submit"]{
+	margin: 0 auto;
+	  width: 30%;
+	background: rgb(139, 71, 39);;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #257C9E;
+	font-size: 15px;
+}
+.Add_form input[type="submit"]:hover{
+	background: gray;
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+
+/* Float cancel and delete buttons and add an equal width */
+.cancelbtn, .deletebtn {
+	float: left;
+	width: 50%;
+  }
+  
+  /* Add a color to the cancel button */
+  .cancelbtn {
+	background-color: #ccc;
+	color: black;
+  }
+  
+  /* Add a color to the delete button */
+  .deletebtn {
+	background-color: #f44336;
+  }
+  
+  /* Add padding and center-align text to the container */
+  .container {
+	padding: 16px;
+	text-align: center;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: #474e5d;
+	padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+	background-color: #fefefe;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 1px solid #888;
+	width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+  }
+   
+  /* The Modal Close Button (x) */
+  .close {
+	position: absolute;
+	right: 35px;
+	top: 15px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #f44336;
+	cursor: pointer;
+  }
+  
+  
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  .clearfix2::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
